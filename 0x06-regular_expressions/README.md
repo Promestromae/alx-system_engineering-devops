@@ -1,7 +1,7 @@
-0x06-regular_expressions
+#0x06-regular_expressions
 .ARGV is an array in Ruby that holds command-line arguments provided when running a script.
 
-ARGV[0] retrieves the first command-line argument passed to the script.
+.ARGV[0] retrieves the first command-line argument passed to the script.
 
 .scan(/School/) scans the input string (the first command-line argument) for occurrences of the pattern "School". It returns an array containing all the matches.
 
@@ -25,7 +25,7 @@ ARGV[0] retrieves the first command-line argument passed to the script.
 
 .\ and ] are escaped to match the literal characters [ and ].
 
-\s matches whitespace characters (spaces or tabs).
+.\s matches whitespace characters (spaces or tabs).
 
 ~(\+?\w*) captures a sequence of word characters (alphanumeric characters and underscores), optionally starting with a plus sign.
 
