@@ -1,4 +1,4 @@
-#0x06-regular_expressions
+# 0x06-regular_expressions
 .ARGV is an array in Ruby that holds command-line arguments provided when running a script.
 
 .ARGV[0] retrieves the first command-line argument passed to the script.
