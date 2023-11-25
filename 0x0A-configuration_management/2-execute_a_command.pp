@@ -1,4 +1,3 @@
-_command.pp
 
 # Kill the process named killmenow
 exec { 'killmenow':
