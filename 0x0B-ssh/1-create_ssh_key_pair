@@ -5,4 +5,4 @@
 # Use ssh with the -i flag to specify the private key file
 # Use the -o flag to disable password authentication
 # Use the user@host format to specify the user and host
-ssh-keygen -t rsa -b 4096 -f ~/.ssh/school
+ssh-keygen -t rsa -b 4096 -f school
