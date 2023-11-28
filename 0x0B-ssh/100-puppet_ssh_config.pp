@@ -8,5 +8,5 @@ file_line {'pass auten No':
 file_line {'Add ident file':
   ensure => present,
     path => '/etc/ssh/ssh_config',
-    line => ' IdentityFile ~/.ssh/holberton',
+    line => ' IdentityFile ~/.ssh/school',
 }
