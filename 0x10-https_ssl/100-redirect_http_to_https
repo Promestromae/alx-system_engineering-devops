@@ -36,11 +36,13 @@ defaults
 #--stromae.tech-params-begin--
 frontend stromae.tech-http-frontend
         bind *:80
+        redirect scheme https if !{ ssl_fc }
         http-request set-header X-Forwarded-Proto http
         default_backend stromae.tech-backend
 
+
 frontend stromae.tech-https-frontend
-        bind *:443 ssl crt /etc/letsencrypt/live/www.stromae.tech-0001/combined.pem
+        bind *:443 ssl crt /etc/letsencrypt/live/www.stromae.tech-0001/www.stromae.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend stromae.tech-backend
 
