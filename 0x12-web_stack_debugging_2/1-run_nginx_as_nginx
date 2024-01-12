@@ -25,4 +25,3 @@ sed -i 's/user .*/user nginx;/' /etc/nginx/nginx.conf
 
 # Restart Nginx
 service nginx start
->>>>>>> 13ed7bbcd04594d0564a66b88096d0aeefe50161
