@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""gets top 10 post on subredit"""
+"""
+Queries Reddit API.
+Prints the titles of first 10 hot posts for a gven subreddit.
+"""
 import json
 import requests
 
