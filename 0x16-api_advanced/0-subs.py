@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" gets the number of subs for a subredit """
+"""
+Contains a function that works with Reddit API
+"""
 import json
 import requests
 
